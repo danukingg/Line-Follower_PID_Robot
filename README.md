@@ -7,7 +7,7 @@ The project demonstrates a full-stack robotics implementation, from custom PCB d
 ## 📸 Project Gallery
 | **3D Design (Fusion 360)** | **Real Implementation** |
 |:--------------------------:|:-----------------------:|
-| ![3D Design](mechanical/render_preview.png) | ![Real Robot](docs/robot_top_view.jpg) |
+| ![3D Design](Mechanical/3D_Render.png) | ![Real Robot](Docs/Robot_Actual_View.jpg) |
 | *Designed in Fusion 360* | *Final Assembly with Custom PCB* |
 
 ## ⚙️ Hardware Specifications
