@@ -11,7 +11,7 @@ The project demonstrates a full-stack robotics implementation, from custom PCB d
 | *Designed in Fusion 360* | *Final Assembly with Custom PCB* |
 
 ## ⚙️ Hardware Specifications
-[cite_start]Based on the final implementation[cite: 31, 82, 314]:
+Based on the final implementation:
 
 | Component | Specification | Function |
 | :--- | :--- | :--- |
