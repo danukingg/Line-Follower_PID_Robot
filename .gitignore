@@ -1,0 +1,17 @@
+# Arduino Build Files
+build/
+output/
+*.elf
+*.bin
+*.hex
+*.map
+*.o
+*.a
+
+# Visual Studio Code / IDE settings
+.vscode/
+.idea/
+
+# Windows Temp Files
+Thumbs.db
+Desktop.ini
