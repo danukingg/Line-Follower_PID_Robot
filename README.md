@@ -26,12 +26,12 @@ The project demonstrates a full-stack robotics implementation, from custom PCB d
 ## 🧠 Software & Control Logic
 
 ### PID Control
-The robot uses a closed-loop control system to correct errors in real-time.
-* [cite_start]**Kp (Proportional):** `17` - Reacts to the current error[cite: 239].
+The robot uses a closed-loop control system to correct errors in real-time. Here's what i used
+* **Kp (Proportional):** `17` - Reacts to the current error.
 * **Ki (Integral):** `0.4` - Corrects accumulated past errors.
 * **Kd (Derivative):** `0.3` - Predicts future errors to dampen oscillation.
 
 ```cpp
 // Snippet from main code
 lf.setPID(17, 0.4, 0.3);
-lf.polaritasMotor(1, 0); // Motor polarity configuration
+lf.polaritasMotor(1, 0); // Motor polarity configuration. It could be (1,1), (0.1), OR (0,0). Choose accordingly
