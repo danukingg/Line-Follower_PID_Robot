@@ -9,14 +9,14 @@ This repository contains the firmware, hardware design (PCB), and mechanical fil
 
 The project demonstrates a **full-stack robotics implementation**, encompassing custom PCB design in EasyEDA, 3D modeling in Fusion 360, and embedded C++ programming.
 
-## 📸 Project Gallery
+## Project Gallery
 
 | **3D Design (Fusion 360)** | **Real Implementation** |
 |:--------------------------:|:-----------------------:|
 | <img src="Mechanical/3D_Render.jpeg" height="250" alt="3D Render"> | <img src="Docs/Robot_Actual_View.jpeg" height="250" alt="Real Robot"> |
 | *Designed in Fusion 360* | *Final Assembly with Custom PCB* |
 
-## ⚙️ Hardware Specifications
+## Hardware Specifications
 
 Based on the final implementation design:
 
@@ -30,7 +30,7 @@ Based on the final implementation design:
 | **Interface** | OLED Display + Buzzer + 5 Buttons | Used for debugging, PID tuning, and mode selection. |
 | **PCB Design** | Custom Shield (EasyEDA) | Integrates driver, sensor ports, and UI buttons. |
 
-## 🧠 Software & Control Logic
+## Software & Control Logic
 
 ### 1. PID Control Algorithm
 The robot uses a closed-loop control system to correct path errors in real-time. The PID parameters were tuned specifically for the 60 RPM motors:
